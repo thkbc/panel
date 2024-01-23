@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+     background-image: url(logout.jpeg);
+  }
+  
+  .container { 
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(34, 146, 195);
+  }
+  
+  .container p {
+  font-size: 24px;
+  margin: 0;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+color: #f0f0f0;
+}
+
+
+  
+  p::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+    background-image: url('sad-emoji.png'); 
+    background-size: cover;
+  }
+  
